@@ -1,6 +1,6 @@
 package io.dropwizard.jersey.setup;
 
-import com.sun.jersey.spi.container.servlet.ServletContainer;
+import org.glassfish.jersey.servlet.ServletContainer;
 
 public class JerseyContainerHolder {
     private ServletContainer container;
